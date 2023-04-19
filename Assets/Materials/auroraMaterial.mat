@@ -20,7 +20,23 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Accents:
+        m_Texture: {fileID: 2800000, guid: 6eae3dc46cf5fe94eb3ef8f2ff6fc985, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: a4f7e2ca431b16248a9ce474b94da21b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Indent:
+        m_Texture: {fileID: 2800000, guid: 8bdcab2f6478e664d90be3dab318f9ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Mix:
+        m_Texture: {fileID: 2800000, guid: 8005623d24f28364493b5870cc5c795c, type: 3}
+        m_Scale: {x: 0.8, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Offset:
         m_Texture: {fileID: 2800000, guid: 8005623d24f28364493b5870cc5c795c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -42,10 +58,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Offset_Strenght: -0.04
+    - _Accent_speed: 0.03
+    - _Accent_strenght: 0.8
+    - _Accent_tiling: 5
+    - _Brightnes: 4
+    - _Brightness: 9
+    - _Color_Balance: 3.98
+    - _Effect_strenght: 0.3
+    - _Indent_lighten: 0.3
+    - _Indent_speed: 0.03
+    - _Indent_strenght: 2
+    - _Indent_tiling: 4
+    - _Lightening: 0.3
+    - _Multiply_strenght: 0.5
+    - _Offset_Strenght: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    m_Colors:
+    - _Accent_speed: {r: 0.04, g: 0, b: 0, a: 0}
+    - _Color_1: {r: 0.31626022, g: 0.9716981, b: 0.45011815, a: 0}
+    - _Color_2: {r: 0, g: 0.12715137, b: 0.6603774, a: 0}
+    - _Indent_speed: {r: 0.05, g: 0, b: 0, a: 0}
+    - _Offset_Speed: {r: 0.1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &130885546614231675
 MonoBehaviour:
